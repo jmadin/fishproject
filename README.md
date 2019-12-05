@@ -41,7 +41,33 @@ Creates a structure like this:
     |___text/
     |
     |___output/
-    |   |___text
-    |   |___plots
+    |   |___plots/
+    |   |___data/
+    |   |___text/
     |
     |___make.R
+    |
+    |___README.Rmd
+
+``` r
+library(fishproject)
+## basic example code
+create_project(text = FALSE, drake = FALSE,
+               rfiles = c("1_load", "2_wrangle", "3_analyze"))
+```
+
+Creates a structure like this:
+
+    myproject.Rproj
+    |___data/
+    |
+    |___R/
+    |   |___1_load.R
+    |   |___2_wrangle.R
+    |   |___3_analyze.R
+    |
+    |___output/
+    |   |___plots/
+    |   |___data/
+    |
+    |___README.Rmd

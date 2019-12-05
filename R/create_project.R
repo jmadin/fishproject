@@ -83,7 +83,7 @@ create_project <- function(
   if (plots & output){
     path <- here::here("output", "plots")
      if (!dir.exists(path)){dir.create(path)
-       message("-> created plots/")
+       message("-> created output/plots/")
      }
   }
 
