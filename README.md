@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.org/nschiett/fishproject.svg?branch=master)](https://travis-ci.org/nschiett/fishproject)
 <!-- badges: end -->
 
 The goal of fishproject is to create a general structure for your R
@@ -43,5 +45,3 @@ Creates a structure like this:
     |   |___plots
     |
     |___make.R
-    |
-    |___.drake/

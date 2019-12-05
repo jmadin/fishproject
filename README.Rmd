@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # fishproject
 
 <!-- badges: start -->
+[![Travis build status](https://travis-ci.org/nschiett/fishproject.svg?branch=master)](https://travis-ci.org/nschiett/fishproject)
 <!-- badges: end -->
 
 The goal of fishproject is to create a general structure for your R project
@@ -53,8 +54,7 @@ create_project()
 |   |___plots
 |
 |___make.R
-|
-|___.drake/
+
  ```
 
 
