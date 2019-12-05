@@ -7,10 +7,12 @@ Authors@R:
            role = c("aut", "cre"),
            email = "nina.schiettekatte@example.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: This package allows you to automatically create a standard project structure, 
-potentially using stan and/or drake
+Description: This package allows you to automatically create a standard project structure, potentially using stan and/or drake
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: 
-    usethis
+    usethis,
+    here
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.0
