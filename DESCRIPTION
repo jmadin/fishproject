@@ -1,0 +1,16 @@
+Package: fishproject
+Title: Set up a standardised R project
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Nina",
+           family = "Schiettekatte",
+           role = c("aut", "cre"),
+           email = "nina.schiettekatte@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package allows you to automatically create a standard project structure, 
+potentially using stan and/or drake
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    usethis
