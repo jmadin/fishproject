@@ -16,3 +16,5 @@ Imports:
     here
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.0.0
+URL: https://github.com/nschiett/fishproject
+BugReports: https://github.com/nschiett/fishproject/issues
