@@ -10,7 +10,7 @@ status](https://travis-ci.org/nschiett/fishproject.svg?branch=master)](https://t
 <!-- badges: end -->
 
 The goal of fishproject is to create a general structure for your R
-project
+project. It is called fishproject because I like fish, but it does not have anything to do wih fish.
 
 ## Installation
 
